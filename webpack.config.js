@@ -23,5 +23,8 @@ module.exports = {
       use: ['babel-loader'],
       include: path.join(__dirname, 'src')
     }]
+  },
+  devServer: {
+    historyApiFallback: true
   }
 };
